@@ -1,0 +1,83 @@
+
+.bugs-list a:hover{
+    color:white;
+}
+.bugs-list a svg{
+    margin-right: 0.4em;
+    color: var(--light-grey-color);
+}
+.bug-form{
+ width: 70%;
+   margin: 0 auto;
+    margin-left: 1em;
+    margin-top: 1em;
+    display: block;
+    background-color: white;
+    padding: 1em;
+    border-radius: 6px;
+  
+}
+
+.bug-form h4{
+    font-size: 1.1em;
+}
+.bug-form label span,.bug-form div {
+    font-size:12px;
+   
+}
+
+.bug-options{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   grid-gap: 0.5em;
+   width: 93%;
+ justify-content: flex-start;
+}
+
+.bug-options label{
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+.bug-options label div:nth-child(1){
+    min-width: 7em;
+}
+.bug-options label div div div div:nth-child(1) {
+    min-width: auto;
+}
+.bug-form textarea{
+    display: block;
+    border: 1px solid var(--light-grey-color);
+    border-radius: 0.3em;
+    padding: 0.2em;
+    margin: 1em 0;
+    width: 91%;
+    font-family: inherit;
+}
+
+.bug-form .btn{
+    align-self: center;
+    margin-top: 1em;
+}
+
+.bug-list{
+    margin-left: 1em;
+    position: relative;
+}
+
+.bug-list .page-title a{
+    color: var(--green-color);
+    text-decoration: underline;
+}
+.bug-list .page-title a:hover{
+    color: var(--light-grey-color);
+
+}
+.bug-list a{
+    margin-left: 1rem;
+}
+.back-to-tasklist{
+    text-decoration: underline;
+    color: var(--light-grey-color);
+}
+
+

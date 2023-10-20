@@ -1,0 +1,134 @@
+.sidebar{
+    min-width: 50px;
+    background-color: var(--dark-blue-color);
+   
+    min-height: 100vh;
+    position: relative;
+    color: var(--light-grey-color);
+    margin-right: 0.5em;
+  
+}
+
+
+
+.sidebar-content{
+position: fixed;
+    width: inherit;
+
+}
+.sidebar-content .logo{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    padding-top: 1em;
+    min-height: 72px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.sidebar-content .logo span{
+    display: none;
+}
+
+.sidebar-content .links span{
+    display: none;
+}
+
+.sidebar .title{
+    font-weight: bold;
+    color: var(--light-grey-color);
+    letter-spacing: 1px;
+    font-size: 0.8em;
+   
+}
+
+.sidebar-content .logo-icon{
+    color: var(--light-grey-color);
+    transform: scale(2);
+    
+}
+.sidebar .user {
+  display: none;
+}
+
+.sidebar .user p{
+    
+    box-shadow: 0px 15px 10px -15px var(--light-grey-color);
+    width: fit-content;
+    padding: 0.2em 1em ;
+
+}
+.sidebar .links{
+    margin-top: 10rem;
+}
+
+.sidebar .links ul{
+    padding: 0;
+}
+.sidebar .links a{
+    color: var(--light-grey-color);
+    display: flex;
+ 
+    padding: 1em 0 1em 1em;
+    font-size: 1em;
+}
+@media screen and (min-width:64rem){
+    .sidebar{
+    min-width: 150px;
+  
+    }
+    .sidebar-content{
+        background-image: url(https://d9hhrg4mnvzow.cloudfront.net/teams.skillshare.com/pricing/cbc3e7cb-line-mobile_10000000c80nq000000028.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+    }
+    .sidebar .user {
+        text-transform: capitalize;
+        font-size: 1.2rem;
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+      justify-content: center;
+      margin-left: 0.8em
+    }
+    .sidebar-content .logo{
+        width:120%;
+    }
+    .sidebar-content .logo span{
+        display: block;
+    }
+    .sidebar .links span{
+       display: inline-block;
+    }
+    .sidebar .links a{
+       
+        width: 100%;
+       
+    }
+}
+
+
+.sidebar .sidebar-icon{
+    color: var(--light-grey-color);
+    margin-right: 1em;
+    transform: scale(1.2);
+  }
+
+.sidebar .links a.active{
+    background-color:  var(--light-grey-color);
+    border-radius: 20px 0 0 20px;
+    color: var(--dark-grey-color) ;
+}
+
+.sidebar .links .active .sidebar-icon {
+    filter: invert(20%);
+    color: var(--dark-grey-color) 
+ }
+
+ .sidebar .link-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }

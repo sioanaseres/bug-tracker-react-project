@@ -1,0 +1,29 @@
+
+
+
+.charts-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+    color: var(--light-grey-color);
+
+}
+.chart{
+    width: 300px;
+}
+
+.pie-chart{
+    width: 300px;
+}
+
+@media screen and (min-width:64em) {
+    .chart{
+        width: 700px;
+    }
+    
+    .pie-chart{
+        width: 500px;
+    }
+}

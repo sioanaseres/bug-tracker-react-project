@@ -1,0 +1,42 @@
+
+
+.navbar{
+    width: 100%;
+
+    color:  var(--dark-grey-color);
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+
+.navbar ul{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 2em;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+
+.navbar a{
+    color:  var(--light-grey-color);
+    text-decoration: none;
+    margin-right: 1.5em;
+     cursor: pointer;
+     font-size: 1.2em;
+    padding-bottom: 0.2rem;
+  
+}
+
+.navbar ul li a:hover{
+text-decoration: underline;
+}
+.navbar .btn{
+    margin-left: 2em
+}
+

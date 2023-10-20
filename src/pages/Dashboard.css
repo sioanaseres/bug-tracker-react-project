@@ -1,0 +1,101 @@
+.dashboard h2{
+    margin-left: 0.5em;
+    color: var(--light-grey-color);
+}
+
+.bug-filter {
+
+    max-width:fit-content;
+  }
+  .bug-filter nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em ;
+    background-color: transparent;
+    flex-wrap: wrap;
+    color: var(--light-grey-color);
+    font-weight: bold;
+  }
+  .bug-filter p {
+    font-size: 0.9em;
+    margin-right: 10px;
+  }
+
+
+  .bug-filter .btn.active {
+    color:  var( --green-color);
+  } 
+
+  .bug-filter .btn:hover{
+    color: var( --dark-blue-color);
+  }
+  .bug-filter .btn{
+    margin-right: 0.5rem;
+  }
+  @media screen and (min-width:1186px) {
+    .bug-filter {
+      margin-left: 1em;
+        max-width:fit-content;
+      }
+
+     
+  } 
+
+
+  .filter-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+  }
+@media screen and (min-width:1186px) {
+  .filter-search{
+    flex-direction: row;
+  }
+}
+
+
+  .search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em 1em;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-right: 1rem;
+    margin-bottom:1rem;
+    font-weight: bold;
+    color: var(--dark-blue-color);
+  }
+.search-input{
+ border: none;
+ margin-bottom:0;
+ margin: 0;
+}
+
+
+
+  .search-container label{
+    font-size: 0.9rem;
+    width: 10rem;
+  }
+
+
+  .search-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+
+  }
+
+  @media screen and (min-width:1399px) {
+    .search-wrapper{
+      flex-direction: row;
+    }
+   .search-container{
+      margin-bottom: 0;
+    }
+  }
